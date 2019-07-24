@@ -1,1 +1,5 @@
-Working on some HTML, CSS and Javascript examples to use for the classes I'm teaching at Black Girls Code Bay Area Summer Camp. 
+# Day by Day Activities and Examples for Black Girls Code Bay Area Summer Camp
+
+Different activities are organized in folders by lesson day.
+
+Any corresponding stylesheets and images are found in respective folders.

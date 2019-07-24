@@ -1,0 +1,13 @@
+body {
+    background-color: #7eedd3;
+}
+img {
+    border-color: red;
+    border-style: double;
+    border-radius: 1em;  /* You can also use pixels */
+    width: 40%;
+}
+
+li {
+    font-style: italic;
+}
