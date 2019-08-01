@@ -1,6 +1,6 @@
 function changeToYellow() {
     document.body.style.background = 'yellow';
-}
+} 
 
 function changeToBlue() {
     document.body.style.background = 'blue';
