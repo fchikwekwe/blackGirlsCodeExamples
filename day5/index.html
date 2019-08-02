@@ -1,49 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Awesome Full Page Tabs</title>
-    <!-- 1. TODO: Link index.css -->
-    <!-- YOUR JAVASCRIPT NEEDS TO BE LINKED AT THE BOTTOM! -->
-    
+    <meta charset="utf-8">
+    <title>Awesome website!</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
 </head>
-<body>
-    <!-- 2. TODO: Pick four different tab names -->
-    <button class="linksAndButtons" onclick="openTabs('Match1', this, 'red')">Match1</button>
-    <button class="linksAndButtons" onclick="openTabs('Match2', this, 'green')" id="defaultOpen">Match2</button>
-    <button class="linksAndButtons" onclick="openTabs('Match3', this, 'blue')">Match3</button>
-    <button class="linksAndButtons" onclick="openTabs('Match4', this, 'orange')">Match4</button>
-    
-    <!-- 3. TODO: Add your tab names as ids below -->
-    <div id="Match1" class="wordsAndImages">
-        <!-- 4. TODO: Customize this page -->
-        <h3>CHOOSE A TITLE</h3>
-        <img src="#" alt="ADD AN IMAGE">
-        <p>ADD SOME TEXT</p>
-    </div>
-    
-    <div id="Match2" class="wordsAndImages">
-        <!-- 5. TODO: Customize this page -->
-        <h3>CHOOSE A TITLE</h3>
-        <img src="#" alt="ADD AN IMAGE">
-        <p>ADD SOME TEXT</p>
-    </div>
-    
-    <div id="Match3" class="wordsAndImages">
-        <!-- 6. TODO: Customize this page -->
-        <h3>CHOOSE A TITLE</h3>
-        <img src="#" alt="ADD AN IMAGE">
-        <p>ADD SOME TEXT</p>
-    </div>
-    
-    <div id="Match4" class="wordsAndImages">
-        <!-- 7. TODO: Customize this page -->
-        <h3>CHOOSE A TITLE</h3>
-        <img src="#" alt="ADD AN IMAGE">
-        <p>ADD SOME TEXT</p>
-    </div>
 
-    <!-- 8. TODO: Link index.js -->
+<body>
+    <h1>Welcome to awesomeness!</h1>
+    <ul>
+        <li>Our first page!</li>
+        <!-- We add an 'a' tag as a link. This way, you can click on the element -->
+        <li id="faith"><a href="../day3/activity/faith.html">About Faith</a></li>
+        <li id="stephanie"><a href="stephanie.html"></a>About Stephanie</li>
+    </ul>
+    <div class="images">
+        <img src="https://vignette.wikia.nocookie.net/disney/images/9/95/Profile_-_Zazu.jpeg/revision/latest?cb=20190312043508https://vignette.wikia.nocookie.net/disney/images/9/95/Profile_-_Zazu.jpeg/revision/latest?cb=20190312043508"
+            alt="">
+    </div>
+    <input type="button" onclick="changeToYellow()" value="Yellow">
+    <input type="button" onclick="changeToBlue()" value="Blue">
+    <input type="button" onclick="changeToRed()" value="Red">
 </body>
+
 </html>
